@@ -1,6 +1,7 @@
 from datetime import datetime
 
-from utils import get_logger, load_json, save_json
+from base import BaseTransformer
+from utils import get_logger
 
 log = get_logger("transform")
 
@@ -101,6 +102,13 @@ def transform_pr(pr: dict) -> dict:
     }
 
 
+class GitHubTransformer(BaseTransformer):
+    sort_field = "merge_date"  # newest first (BaseTransformer default)
+
+    def transform_item(self, raw: dict) -> dict:
+        return transform_pr(raw)
+
+
 def transform_all(details: list[dict]) -> list[dict]:
-    rows = [transform_pr(pr) for pr in details if pr]  # skip null PRs
-    return sorted(rows, key=lambda r: r["merge_date"], reverse=True)
+    """Kept as a module-level function for backward compatibility."""
+    return GitHubTransformer().transform_all(details)

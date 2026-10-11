@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Pipeline outputs: keep raw/intermediate files local, commit the final report
+data/extracted/*
+data/transformed/*
+!data/extracted/.gitkeep
+!data/transformed/.gitkeep
