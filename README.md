@@ -39,12 +39,12 @@ cp .env.example .env             # then edit .env
 
 Configure `.env`:
 
-| Variable       | Description                                  | Default             |
-|----------------|----------------------------------------------|---------------------|
-| `GITHUB_TOKEN` | Personal access token (required)             | none                |
-| `GITHUB_ORG`   | Organization / owner                         | `home-assistant`    |
-| `GITHUB_REPO`  | Repository name                              | `home-assistant.io` |
-| `MAX_PRS`      | Maximum number of merged PRs to process      | `200`               |
+| Variable       | Description                             | Default             |
+| -------------- | --------------------------------------- | ------------------- |
+| `GITHUB_TOKEN` | Personal access token (required)        | none                |
+| `GITHUB_ORG`   | Organization / owner                    | `home-assistant`    |
+| `GITHUB_REPO`  | Repository name                         | `home-assistant.io` |
+| `MAX_PRS`      | Maximum number of merged PRs to process | `200`               |
 
 **Token:** a classic PAT with no scopes, or a fine-grained token with read-only access to public repositories, is enough for public repos. Never commit `.env`.
 
@@ -59,16 +59,16 @@ python -m pytest -v             # run the tests
 
 Each step writes its output to its own folder:
 
-| Step      | Output                                                      |
-|-----------|-------------------------------------------------------------|
-| Extract   | `data/extracted/github/ids.json`, `details.json`            |
-| Transform | `data/transformed/github/rows.json`                         |
-| Report    | `data/reports/pr_review_report.csv`                         |
+| Step      | Output                                           |
+| --------- | ------------------------------------------------ |
+| Extract   | `data/extracted/github/ids.json`, `details.json` |
+| Transform | `data/transformed/github/rows.json`              |
+| Report    | `data/reports/pr_review_report.csv`              |
 
 ## Report columns
 
 | Column                 | Meaning                                                               |
-|------------------------|-----------------------------------------------------------------------|
+| ---------------------- | --------------------------------------------------------------------- |
 | `pr_number`            | Pull request number                                                   |
 | `pr_title`             | Title                                                                 |
 | `author`               | Author login (`ghost` if the account was deleted)                     |
@@ -116,7 +116,7 @@ Consequences: a reviewer who requested changes and later approved counts as an a
 - **Required checks reflect today's branch protection rules**, not the rules at merge time. GitHub does not expose historical rules, so a check that became required (or stopped being required) after a PR merged is evaluated under the current rules.
 - **Only the last commit before merge is inspected.** Checks that ran only on the merge commit itself are not included.
 - **Reviews and check contexts are capped at 100 per PR.** A warning is logged if a PR exceeds this; results for such PRs may be partial. Pagination of these inner lists is not implemented.
-- **"Most recent" means most recently updated.** Merged PRs are listed ordered by last-updated time, because the GraphQL API cannot order by merge time. With `MAX_PRS` set, the sample is the most recently *updated* merged PRs, not strictly the most recently merged.
+- **"Most recent" means most recently updated.** Merged PRs are listed ordered by last-updated time, because the GraphQL API cannot order by merge time. With `MAX_PRS` set, the sample is the most recently _updated_ merged PRs, not strictly the most recently merged.
 - **Bot approvals count as approvals.** A review by a bot account with state `APPROVED` would be treated like any other. In the observed data, review bots only leave `COMMENTED` reviews.
 - **"At least one approval" is the rule.** A PR with one approval and another reviewer's outstanding "changes requested" is reported `CR_PASSED = True`, with the blocker listed in `changes_requested_by`. This follows the assignment wording; GitHub's own merge gate would be stricter.
 
