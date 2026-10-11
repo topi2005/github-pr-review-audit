@@ -8,4 +8,4 @@ pr_number,pr_title,author,merge_date,CR_PASSED,CHECKS_PASSED,approved_by,changes
 49057,Point to the list of available conditions,c0ffeeca7,2026-10-11T06:44:14Z,True,True,silamon,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
 49056,Condition pages: link Numeric state and Time to their own pages,c0ffeeca7,2026-10-11T06:43:56Z,True,True,silamon,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
 49055,Lawn mower: add stop command to match current SW,c0ffeeca7,2026-10-11T06:43:25Z,True,True,silamon,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
-49054,Release notes: remove note that documentation is missing,c0ffeeca7,2026-10-11T06:43:04Z,True,True,silamon,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
+49016,Update mcr.microsoft.com/devcontainers/ruby Docker tag to v4.1.3-3.4-trixie,renovate,2026-10-10T08:05:29Z,True,True,frenck,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,

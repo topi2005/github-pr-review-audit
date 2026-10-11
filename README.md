@@ -32,7 +32,9 @@ Requires Python 3.10+.
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
+source .venv/bin/activate         # macOS / Linux
+source .venv/Scripts/activate     # Windows, Git Bash
+.venv\Scripts\activate            # Windows, cmd / PowerShell
 pip install -r requirements.txt
 cp .env.example .env             # then edit .env
 ```
