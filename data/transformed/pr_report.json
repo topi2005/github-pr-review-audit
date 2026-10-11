@@ -1,0 +1,122 @@
+[
+  {
+    "pr_number": 48319,
+    "pr_title": "Add documentation for select platform for Electrolux integration",
+    "author": "ferenc-fustos-electrolux",
+    "merge_date": "2026-10-10T04:32:36Z",
+    "CR_PASSED": true,
+    "CHECKS_PASSED": null,
+    "approved_by": "c0ffeeca7",
+    "changes_requested_by": "",
+    "required_checks": "",
+    "failed_checks": ""
+  },
+  {
+    "pr_number": 48039,
+    "pr_title": "Document the KACO Modbus reconfigure flow",
+    "author": "g4bri3lDev",
+    "merge_date": "2026-10-10T04:32:04Z",
+    "CR_PASSED": true,
+    "CHECKS_PASSED": true,
+    "approved_by": "c0ffeeca7",
+    "changes_requested_by": "",
+    "required_checks": "Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview",
+    "failed_checks": ""
+  },
+  {
+    "pr_number": 47889,
+    "pr_title": "Add BSB-LAN heating schedule action documentation",
+    "author": "liudger",
+    "merge_date": "2026-10-10T04:31:44Z",
+    "CR_PASSED": true,
+    "CHECKS_PASSED": true,
+    "approved_by": "c0ffeeca7",
+    "changes_requested_by": "",
+    "required_checks": "Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview",
+    "failed_checks": ""
+  },
+  {
+    "pr_number": 49011,
+    "pr_title": "Update dependency pnpm to v12.10.1",
+    "author": "renovate",
+    "merge_date": "2026-10-09T19:27:08Z",
+    "CR_PASSED": true,
+    "CHECKS_PASSED": true,
+    "approved_by": "frenck",
+    "changes_requested_by": "",
+    "required_checks": "Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview",
+    "failed_checks": ""
+  },
+  {
+    "pr_number": 48891,
+    "pr_title": "Add a Prerequisites section to the Airthings BLE docs",
+    "author": "LaStrada",
+    "merge_date": "2026-10-09T04:38:51Z",
+    "CR_PASSED": true,
+    "CHECKS_PASSED": true,
+    "approved_by": "c0ffeeca7",
+    "changes_requested_by": "",
+    "required_checks": "Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview",
+    "failed_checks": ""
+  },
+  {
+    "pr_number": 48965,
+    "pr_title": "Document image generation for OpenRouter",
+    "author": "joostlek",
+    "merge_date": "2026-10-09T04:31:11Z",
+    "CR_PASSED": true,
+    "CHECKS_PASSED": true,
+    "approved_by": "c0ffeeca7",
+    "changes_requested_by": "",
+    "required_checks": "Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview",
+    "failed_checks": ""
+  },
+  {
+    "pr_number": 46423,
+    "pr_title": "Add documentation for `nfandroidtv.send_message` action in Notifications for Android TV / Fire TV integration",
+    "author": "tr4nt0r",
+    "merge_date": "2026-10-09T04:29:55Z",
+    "CR_PASSED": true,
+    "CHECKS_PASSED": true,
+    "approved_by": "c0ffeeca7",
+    "changes_requested_by": "",
+    "required_checks": "Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview",
+    "failed_checks": ""
+  },
+  {
+    "pr_number": 48506,
+    "pr_title": "Document new Ouman EH-800 autumn drying and measurement entities",
+    "author": "Markus98",
+    "merge_date": "2026-10-09T04:26:46Z",
+    "CR_PASSED": true,
+    "CHECKS_PASSED": true,
+    "approved_by": "c0ffeeca7",
+    "changes_requested_by": "",
+    "required_checks": "Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview",
+    "failed_checks": ""
+  },
+  {
+    "pr_number": 48975,
+    "pr_title": "Update quality score",
+    "author": "LukasQ",
+    "merge_date": "2026-10-09T02:32:47Z",
+    "CR_PASSED": true,
+    "CHECKS_PASSED": true,
+    "approved_by": "c0ffeeca7",
+    "changes_requested_by": "",
+    "required_checks": "Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview",
+    "failed_checks": ""
+  },
+  {
+    "pr_number": 48948,
+    "pr_title": "Move information about Airly data updates to the \"Data updates\" section",
+    "author": "bieniu",
+    "merge_date": "2026-10-09T02:31:41Z",
+    "CR_PASSED": true,
+    "CHECKS_PASSED": true,
+    "approved_by": "c0ffeeca7",
+    "changes_requested_by": "",
+    "required_checks": "Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview",
+    "failed_checks": ""
+  }
+]

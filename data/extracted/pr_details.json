@@ -1,0 +1,1146 @@
+[
+  {
+    "number": 46423,
+    "title": "Add documentation for `nfandroidtv.send_message` action in Notifications for Android TV / Fire TV integration",
+    "url": "https://github.com/home-assistant/home-assistant.io/pull/46423",
+    "mergedAt": "2026-10-09T04:29:55Z",
+    "author": {
+      "login": "tr4nt0r"
+    },
+    "mergeCommit": {
+      "oid": "de658b7d2d79cc7180bb54f72e6ceb5e559a379e"
+    },
+    "reviews": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-06-23T15:36:08Z",
+          "author": {
+            "login": "copilot-pull-request-reviewer"
+          }
+        },
+        {
+          "state": "CHANGES_REQUESTED",
+          "submittedAt": "2026-10-08T09:25:30Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        },
+        {
+          "state": "APPROVED",
+          "submittedAt": "2026-10-09T04:29:46Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        }
+      ]
+    },
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "oid": "6f43e8c55a0fdc0daaeb00654fc0261fd730eb45",
+            "statusCheckRollup": {
+              "state": "SUCCESS",
+              "contexts": {
+                "pageInfo": {
+                  "hasNextPage": false
+                },
+                "nodes": [
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Build Astro site",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Pages changed - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "NEUTRAL",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "CodeRabbit",
+                    "state": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Header rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Redirect rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "netlify/home-assistant-docs/deploy-preview",
+                    "state": "SUCCESS",
+                    "isRequired": true
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "number": 48506,
+    "title": "Document new Ouman EH-800 autumn drying and measurement entities",
+    "url": "https://github.com/home-assistant/home-assistant.io/pull/48506",
+    "mergedAt": "2026-10-09T04:26:46Z",
+    "author": {
+      "login": "Markus98"
+    },
+    "mergeCommit": {
+      "oid": "df5d791743a917cbbd2d3c184f80fe2b8a00a735"
+    },
+    "reviews": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-09-28T14:21:58Z",
+          "author": {
+            "login": "copilot-pull-request-reviewer"
+          }
+        },
+        {
+          "state": "APPROVED",
+          "submittedAt": "2026-10-09T04:26:37Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        }
+      ]
+    },
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "oid": "5f85f4dee7c0c9c206261b4596faac02304a25aa",
+            "statusCheckRollup": {
+              "state": "SUCCESS",
+              "contexts": {
+                "pageInfo": {
+                  "hasNextPage": false
+                },
+                "nodes": [
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Build Astro site",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Pages changed - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "NEUTRAL",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "CodeRabbit",
+                    "state": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Header rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Redirect rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "netlify/home-assistant-docs/deploy-preview",
+                    "state": "SUCCESS",
+                    "isRequired": true
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "number": 48965,
+    "title": "Document image generation for OpenRouter",
+    "url": "https://github.com/home-assistant/home-assistant.io/pull/48965",
+    "mergedAt": "2026-10-09T04:31:11Z",
+    "author": {
+      "login": "joostlek"
+    },
+    "mergeCommit": {
+      "oid": "5108f723b719d37570f59812c16a454901c4de10"
+    },
+    "reviews": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-10-08T13:22:21Z",
+          "author": {
+            "login": "copilot-pull-request-reviewer"
+          }
+        },
+        {
+          "state": "APPROVED",
+          "submittedAt": "2026-10-09T04:28:39Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        }
+      ]
+    },
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "oid": "c5e0bea5a90add80363a77100991eb4f6c2d557b",
+            "statusCheckRollup": {
+              "state": "SUCCESS",
+              "contexts": {
+                "pageInfo": {
+                  "hasNextPage": false
+                },
+                "nodes": [
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Build Astro site",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Build Astro site",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Pages changed - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "NEUTRAL",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "CodeRabbit",
+                    "state": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Header rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Redirect rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "netlify/home-assistant-docs/deploy-preview",
+                    "state": "SUCCESS",
+                    "isRequired": true
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "number": 48891,
+    "title": "Add a Prerequisites section to the Airthings BLE docs",
+    "url": "https://github.com/home-assistant/home-assistant.io/pull/48891",
+    "mergedAt": "2026-10-09T04:38:51Z",
+    "author": {
+      "login": "LaStrada"
+    },
+    "mergeCommit": {
+      "oid": "0ff8d7a47553f491b4e98823e035306305cfb928"
+    },
+    "reviews": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-10-06T16:58:33Z",
+          "author": {
+            "login": "copilot-pull-request-reviewer"
+          }
+        },
+        {
+          "state": "CHANGES_REQUESTED",
+          "submittedAt": "2026-10-07T06:38:49Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        },
+        {
+          "state": "CHANGES_REQUESTED",
+          "submittedAt": "2026-10-08T03:45:45Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        },
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-10-08T11:09:55Z",
+          "author": {
+            "login": "LaStrada"
+          }
+        },
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-10-08T11:15:02Z",
+          "author": {
+            "login": "LaStrada"
+          }
+        },
+        {
+          "state": "APPROVED",
+          "submittedAt": "2026-10-09T04:38:42Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        }
+      ]
+    },
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "oid": "362274b96a452fd6233b3ced5057dfa71f0426c3",
+            "statusCheckRollup": {
+              "state": "SUCCESS",
+              "contexts": {
+                "pageInfo": {
+                  "hasNextPage": false
+                },
+                "nodes": [
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Build Astro site",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Pages changed - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "NEUTRAL",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "CodeRabbit",
+                    "state": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Header rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Redirect rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "netlify/home-assistant-docs/deploy-preview",
+                    "state": "SUCCESS",
+                    "isRequired": true
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "number": 48319,
+    "title": "Add documentation for select platform for Electrolux integration",
+    "url": "https://github.com/home-assistant/home-assistant.io/pull/48319",
+    "mergedAt": "2026-10-10T04:32:36Z",
+    "author": {
+      "login": "ferenc-fustos-electrolux"
+    },
+    "mergeCommit": {
+      "oid": "54ec8f60f900dccf1d74d33c9c91a4ee471db56e"
+    },
+    "reviews": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "state": "CHANGES_REQUESTED",
+          "submittedAt": "2026-09-24T03:51:34Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        },
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-09-29T07:13:02Z",
+          "author": {
+            "login": "ferenc-fustos-electrolux"
+          }
+        },
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-09-29T07:14:55Z",
+          "author": {
+            "login": "ferenc-fustos-electrolux"
+          }
+        },
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-09-29T07:20:14Z",
+          "author": {
+            "login": "ferenc-fustos-electrolux"
+          }
+        },
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-09-29T07:37:39Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        },
+        {
+          "state": "APPROVED",
+          "submittedAt": "2026-09-29T07:38:01Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        },
+        {
+          "state": "APPROVED",
+          "submittedAt": "2026-10-10T04:32:28Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        }
+      ]
+    },
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "oid": "d4b711b728bf42647213e26d67f960d81a8e81d6",
+            "statusCheckRollup": {
+              "state": "SUCCESS",
+              "contexts": {
+                "pageInfo": {
+                  "hasNextPage": false
+                },
+                "nodes": [
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "CodeRabbit",
+                    "state": "SUCCESS",
+                    "isRequired": false
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "number": 48039,
+    "title": "Document the KACO Modbus reconfigure flow",
+    "url": "https://github.com/home-assistant/home-assistant.io/pull/48039",
+    "mergedAt": "2026-10-10T04:32:04Z",
+    "author": {
+      "login": "g4bri3lDev"
+    },
+    "mergeCommit": {
+      "oid": "cae3217b214f7b1443e48b56ff44c9bd3c9244dc"
+    },
+    "reviews": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-09-09T15:25:48Z",
+          "author": {
+            "login": "copilot-pull-request-reviewer"
+          }
+        },
+        {
+          "state": "APPROVED",
+          "submittedAt": "2026-09-10T04:40:53Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        }
+      ]
+    },
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "oid": "25a36ea1c551370b084f743cdd064050e3c41a93",
+            "statusCheckRollup": {
+              "state": "SUCCESS",
+              "contexts": {
+                "pageInfo": {
+                  "hasNextPage": false
+                },
+                "nodes": [
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Pages changed - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "NEUTRAL",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "CodeRabbit",
+                    "state": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Header rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Redirect rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "netlify/home-assistant-docs/deploy-preview",
+                    "state": "SUCCESS",
+                    "isRequired": true
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "number": 47889,
+    "title": "Add BSB-LAN heating schedule action documentation",
+    "url": "https://github.com/home-assistant/home-assistant.io/pull/47889",
+    "mergedAt": "2026-10-10T04:31:44Z",
+    "author": {
+      "login": "liudger"
+    },
+    "mergeCommit": {
+      "oid": "253f08610e5990fa9aa667be69a93bb87d4a3b2c"
+    },
+    "reviews": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-09-05T11:46:57Z",
+          "author": {
+            "login": "copilot-pull-request-reviewer"
+          }
+        },
+        {
+          "state": "APPROVED",
+          "submittedAt": "2026-10-10T04:31:34Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        }
+      ]
+    },
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "oid": "3ce7529f1775815468e86189db294a97e12e2571",
+            "statusCheckRollup": {
+              "state": "SUCCESS",
+              "contexts": {
+                "pageInfo": {
+                  "hasNextPage": false
+                },
+                "nodes": [
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Pages changed - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "NEUTRAL",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "CodeRabbit",
+                    "state": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Header rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Redirect rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "netlify/home-assistant-docs/deploy-preview",
+                    "state": "SUCCESS",
+                    "isRequired": true
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "number": 48948,
+    "title": "Move information about Airly data updates to the \"Data updates\" section",
+    "url": "https://github.com/home-assistant/home-assistant.io/pull/48948",
+    "mergedAt": "2026-10-09T02:31:41Z",
+    "author": {
+      "login": "bieniu"
+    },
+    "mergeCommit": {
+      "oid": "f7ff9249550eca508af419be6e8b315cbad28f18"
+    },
+    "reviews": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-10-08T08:15:21Z",
+          "author": {
+            "login": "copilot-pull-request-reviewer"
+          }
+        },
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-10-08T08:19:14Z",
+          "author": {
+            "login": "copilot-pull-request-reviewer"
+          }
+        },
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-10-08T08:25:21Z",
+          "author": {
+            "login": "copilot-pull-request-reviewer"
+          }
+        },
+        {
+          "state": "APPROVED",
+          "submittedAt": "2026-10-09T02:31:27Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        }
+      ]
+    },
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "oid": "3d982c94184b370b708df05fcd84aca4c59a2d9f",
+            "statusCheckRollup": {
+              "state": "SUCCESS",
+              "contexts": {
+                "pageInfo": {
+                  "hasNextPage": false
+                },
+                "nodes": [
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Build Astro site",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Pages changed - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "NEUTRAL",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "CodeRabbit",
+                    "state": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Header rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Redirect rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "netlify/home-assistant-docs/deploy-preview",
+                    "state": "SUCCESS",
+                    "isRequired": true
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "number": 48975,
+    "title": "Update quality score",
+    "url": "https://github.com/home-assistant/home-assistant.io/pull/48975",
+    "mergedAt": "2026-10-09T02:32:47Z",
+    "author": {
+      "login": "LukasQ"
+    },
+    "mergeCommit": {
+      "oid": "9f9d4c212cf6d1735f262ebbeb082e5f4ff370b8"
+    },
+    "reviews": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-10-08T18:47:29Z",
+          "author": {
+            "login": "copilot-pull-request-reviewer"
+          }
+        },
+        {
+          "state": "APPROVED",
+          "submittedAt": "2026-10-09T02:32:21Z",
+          "author": {
+            "login": "c0ffeeca7"
+          }
+        }
+      ]
+    },
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "oid": "d901df41b5eabf250c59324d9cbdff6e8df30f36",
+            "statusCheckRollup": {
+              "state": "SUCCESS",
+              "contexts": {
+                "pageInfo": {
+                  "hasNextPage": false
+                },
+                "nodes": [
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Build Astro site",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Pages changed - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "NEUTRAL",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "CodeRabbit",
+                    "state": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Header rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Redirect rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "netlify/home-assistant-docs/deploy-preview",
+                    "state": "SUCCESS",
+                    "isRequired": true
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "number": 49011,
+    "title": "Update dependency pnpm to v12.10.1",
+    "url": "https://github.com/home-assistant/home-assistant.io/pull/49011",
+    "mergedAt": "2026-10-09T19:27:08Z",
+    "author": {
+      "login": "renovate"
+    },
+    "mergeCommit": {
+      "oid": "fd5478e149c7a10d7e116a20e1ddd8e0de73e744"
+    },
+    "reviews": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "state": "COMMENTED",
+          "submittedAt": "2026-10-09T18:50:05Z",
+          "author": {
+            "login": "copilot-pull-request-reviewer"
+          }
+        },
+        {
+          "state": "APPROVED",
+          "submittedAt": "2026-10-09T19:27:02Z",
+          "author": {
+            "login": "frenck"
+          }
+        }
+      ]
+    },
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "oid": "9932512a177552f2b672dd0d2731615f75eeee2c",
+            "statusCheckRollup": {
+              "state": "SUCCESS",
+              "contexts": {
+                "pageInfo": {
+                  "hasNextPage": false
+                },
+                "nodes": [
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Markdown",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Lint Text",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Build Astro site",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Build Astro site",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Pages changed - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "NEUTRAL",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "CodeRabbit",
+                    "state": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Header rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "CheckRun",
+                    "name": "Redirect rules - home-assistant-docs",
+                    "status": "COMPLETED",
+                    "conclusion": "SUCCESS",
+                    "isRequired": false
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "netlify/home-assistant-docs/deploy-preview",
+                    "state": "SUCCESS",
+                    "isRequired": true
+                  },
+                  {
+                    "__typename": "StatusContext",
+                    "context": "renovate/stability-days",
+                    "state": "SUCCESS",
+                    "isRequired": false
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

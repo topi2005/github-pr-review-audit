@@ -1,0 +1,11 @@
+pr_number,pr_title,author,merge_date,CR_PASSED,CHECKS_PASSED,approved_by,changes_requested_by,required_checks,failed_checks
+48319,Add documentation for select platform for Electrolux integration,ferenc-fustos-electrolux,2026-10-10T04:32:36Z,True,,c0ffeeca7,,,
+48039,Document the KACO Modbus reconfigure flow,g4bri3lDev,2026-10-10T04:32:04Z,True,True,c0ffeeca7,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
+47889,Add BSB-LAN heating schedule action documentation,liudger,2026-10-10T04:31:44Z,True,True,c0ffeeca7,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
+49011,Update dependency pnpm to v12.10.1,renovate,2026-10-09T19:27:08Z,True,True,frenck,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
+48891,Add a Prerequisites section to the Airthings BLE docs,LaStrada,2026-10-09T04:38:51Z,True,True,c0ffeeca7,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
+48965,Document image generation for OpenRouter,joostlek,2026-10-09T04:31:11Z,True,True,c0ffeeca7,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
+46423,Add documentation for `nfandroidtv.send_message` action in Notifications for Android TV / Fire TV integration,tr4nt0r,2026-10-09T04:29:55Z,True,True,c0ffeeca7,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
+48506,Document new Ouman EH-800 autumn drying and measurement entities,Markus98,2026-10-09T04:26:46Z,True,True,c0ffeeca7,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
+48975,Update quality score,LukasQ,2026-10-09T02:32:47Z,True,True,c0ffeeca7,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
+48948,"Move information about Airly data updates to the ""Data updates"" section",bieniu,2026-10-09T02:31:41Z,True,True,c0ffeeca7,,Lint Markdown;Lint Text;netlify/home-assistant-docs/deploy-preview,
