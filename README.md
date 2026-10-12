@@ -124,7 +124,9 @@ Consequences: a reviewer who requested changes and later approved counts as an a
 
 ## Testing
 
-`tests/test_transform.py` contains 24 unit tests using hand-built PR payloads, and `tests/test_base.py` contains 8 tests for the shared layer (a fake integration run through `Pipeline`, plus `ApiClient` retry, rate-limit and auth behaviour). They cover review ordering, approve-then-request-changes (and the reverse), dismissed and comment-only reviews, self-approval, post-merge reviews, duplicate check names, failed/in-progress/non-required checks, null rollups, deleted authors, and pagination warnings. All tests are mocked and need no network or credentials.
+- `tests/test_transform.py` (24 tests) covers the review and check verdict logic using hand-built PR payloads: review ordering, approve-then-request-changes (and the reverse), dismissed and comment-only reviews, self-approval, post-merge reviews, duplicate check names, failed/in-progress/non-required checks, null rollups, deleted authors, and pagination warnings.
+- `tests/test_extract.py` (13 tests) covers `GitHubExtractor`: cursor pagination, the `max_items` cap, request payloads, GraphQL error handling, and a full `run()` writing its JSON outputs.
+- `tests/test_base.py` (8 tests) covers the shared layer: a fake integration run through `Pipeline`, plus `ApiClient` retry, rate-limit and auth behaviour.
 
 ## Extending to other integrations
 
